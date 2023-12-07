@@ -10,7 +10,8 @@
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "lint-staged",
-    "prepare":"npm run build"
+    "prepare":"npm run build",
+    "prepace":"npm run build"
   },
   "repository": {
     "type": "git",
